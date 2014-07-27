@@ -48,8 +48,8 @@
 <project name="libretro/FFmpeg"/>
 <project name="libretro/bsnes-libretro-cplusplus98"/>
 <project name="libretro/bsnes-mercury"/>
-
-
+<project name="libretro/picodrive"/>
+<project name="libretro/ppsspp-libretro"/>
 <project name="libretro/tgbdual-libretro"/>
 <project name="libretro/mupen64plus-libretro"/>
 <project name="libretro/instancingviewer-libretro-gl"/>
