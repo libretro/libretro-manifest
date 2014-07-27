@@ -1,11 +1,11 @@
 <manifest>
 <remote name="github" fetch="https://github.com/" />
-<remote name="gitorious" fetch="git://gitorious.org/" />
+<remote name="gitorious" fetch="https://git.gitorious.org/" />
 <default revision="refs/heads/master" remote="github" sync-j="8"/>
 <project name="libretro/libretro-super"/>
 <project name="libretro/RetroArch"/>
 <project name="libretro/common-overlays"/>
-
+<project name="bsnes/bsnes" remote="gitorious" revision="refs/heads/libretro"/>
 <project name="libretro/snes9x"/>
 <project name="libretro/snes9x-next"/>
 <project name="libretro/Genesis-Plus-GX"/>
