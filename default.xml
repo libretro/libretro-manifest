@@ -2,6 +2,7 @@
 <remote name="github" fetch="https://github.com/" />
 <remote name="gitorious" fetch="https://git.gitorious.org/" />
 <default revision="refs/heads/master" remote="github" sync-j="8"/>
+<project name="libretro/libretro-manifest" path=".libretro-manifest"/>
 <project name="libretro/libretro-super" path="libretro-super"/>
 <project name="libretro/RetroArch" path="libretro-super/retroarch"/>
 <project name="libretro/common-overlays" path="libretro-super/libretro-overlays"/>
