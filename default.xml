@@ -63,4 +63,5 @@
 <project name="libretro/fmsx-libretro"/>
 <project name="libretro/libretro-2048"/>
 <project name="libretro/libretro-vecx"/>
+<project name="libretro/retroarch-joypad-autoconfig"/>
 </manifest>
