@@ -2,7 +2,6 @@
 <remote name="github" fetch="https://github.com/" />
 <remote name="gitorious" fetch="https://git.gitorious.org/" />
 <default revision="refs/heads/master" remote="github" sync-j="8"/>
-<project name="libretro/libretro-manifest" path=".libretro-manifest"/>
 <project name="libretro/libretro-super" path="libretro-super"/>
 <project name="libretro/RetroArch" path="libretro-super/retroarch"/>
 <project name="libretro/common-overlays" path="libretro-super/libretro-overlays"/>
@@ -50,7 +49,6 @@
 <project name="libretro/bsnes-libretro-cplusplus98" path="libretro-super/libretro-bsnes-cplusplus98"/>
 <project name="libretro/bsnes-mercury" path="libretro-super/libretro-bsnes-mercury"/>
 <project name="libretro/picodrive" path="libretro-super/libretro-picodrive"/>
-<project name="libretro/ppsspp-libretro" path="libretro-super/libretro-pppsspp"/>
 <project name="libretro/tgbdual-libretro" path="libretro-super/libretro-tgbdual"/>
 <project name="libretro/mupen64plus-libretro" path="libretro-super/libretro-mupen64plus"/>
 <project name="libretro/instancingviewer-libretro-gl" path="libretro-super/libretro-gl-instancingviewer"/>
@@ -65,4 +63,8 @@
 <project name="libretro/libretro-2048" path="libretro-super/libretro-2048"/>
 <project name="libretro/libretro-vecx" path="libretro-super/libretro-vecx"/>
 <project name="libretro/retroarch-joypad-autoconfig"  path="libretro-super/retroarch-joypad-autoconfig"/>
+<project name="libretro/libretro-manifest" path="libretro-super/libretro-manifest"/>
+<project name="libretro/libretro-ppsspp" path="libretro-super/pppsspp"/>
+<project name="libretro/ppsspp-native" path="libretro-super/pppsspp/native"/>
+<project name="libretro/ppsspp-ffmpeg" path="libretro-super/pppsspp/ffmpeg"/>
 </manifest>
