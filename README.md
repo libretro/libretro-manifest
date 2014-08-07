@@ -3,7 +3,7 @@ libretro-manifest
 
 repo manifest for libretro project
 
-This is an alternative method to libretro-fetsh.sh for getting/keeping libretro project code up to date which may intigrate better with some devs' workflows. It allows for a local manifest file so that devs can re-map or add specific repositories in the libretro project with their personal working versions of that repository without imacting the mapping of any of the other community repositories. Read more about repo usage [here](http://source.android.com/source/using-repo.html). Read more about using a local manifest file [here](http://wiki.cyanogenmod.org/w/Doc%3a_Using_local_manifests#The_local_manifest).
+This is an alternative method to libretro-fetch.sh for getting/keeping libretro project code up to date which may intigrate better with some devs' workflows. It allows for a local manifest file so that devs can re-map or add specific repositories in the libretro project with their personal working versions of that repository without imacting the mapping of any of the other community repositories. Read more about repo usage [here](http://source.android.com/source/using-repo.html). Read more about using a local manifest file [here](http://wiki.cyanogenmod.org/w/Doc%3a_Using_local_manifests#The_local_manifest).
 
 ### Setup and initial run
 Instead of cloning libretro-super and then running libretro-fetch.sh do the following:
