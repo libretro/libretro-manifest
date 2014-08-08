@@ -71,4 +71,5 @@
 <project name="libretro/libretro-ppsspp" path="libretro-super/libretro-ppsspp/"/>
 <project name="libretro/ppsspp-native" path="libretro-super/libretro-ppsspp/native"/>
 <project name="libretro/ppsspp-ffmpeg" path="libretro-super/libretro-ppsspp/ffmpeg"/>
+<project name="libretro/prosystem-libretro" path="libretro-super/libretro-prosystem"/>
 </manifest>
