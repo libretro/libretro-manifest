@@ -5,9 +5,9 @@
 <project name="libretro/libretro-super" path="libretro-super"/>
 <project name="libretro/RetroArch" path="libretro-super/retroarch"/>
 <project name="libretro/common-overlays" path="libretro-super/libretro-overlays"/>
-<project name="bsnes/bsnes" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes"/>
-<project name="bsnes/bsnes" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/perf"/>
-<project name="bsnes/bsnes" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/balanced"/>
+<project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes"/>
+<project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/perf"/>
+<project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/balanced"/>
 <project name="libretro/snes9x" path="libretro-super/libretro-s9x"/>
 <project name="libretro/snes9x-next" path="libretro-super/libretro-s9x-next"/>
 <project name="libretro/Genesis-Plus-GX" path="libretro-super/libretro-genplus"/>
