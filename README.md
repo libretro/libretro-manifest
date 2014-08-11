@@ -33,3 +33,17 @@ cd ~/libretro-src
 repo sync
 repo forall -c git submodule update
 ```
+### Developer benefits
+  Libretro is a big project. `repo` makes it easy to redirect one git repository (say for a single core) to your own personal developement git repo while staying up to date with the public repos of all the other projects. To do this you must override an entry in the default.xml file here in this repository. When you do `repo init -u https://github.com/libretro/libretro-manifest.git` the default.xml file from this repository gets pulled into ./.repo/  
+
+Create a directory, ./.repo/local_manifests and then put a .xml file in it that overrides one of the repositories defined in default.xml  
+
+For example if you have your own personal repository for libretro-super at https://github.com/l3iggs/libretro-super your local manifest.xml file might look like:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/l3iggs/" name="mygithub"/>
+  <project name="libretro-super" path="libretro-super" remote="mygithub" />
+</manifest>
+```
+From then on when you do `repo sync` your own code will be pulled for libretro-super instead of the community's code.
