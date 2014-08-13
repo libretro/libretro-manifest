@@ -2,9 +2,15 @@
 <remote name="github" fetch="https://github.com/" />
 <remote name="gitorious" fetch="https://git.gitorious.org/" />
 <default revision="refs/heads/master" remote="github" sync-j="8"/>
+
 <project name="libretro/libretro-super" path="libretro-super"/>
+
 <project name="libretro/RetroArch" path="libretro-super/retroarch"/>
-<project name="libretro/common-overlays" path="libretro-super/libretro-overlays"/>
+<project name="libretro/common-overlays" path="libretro-super/retroarch/media/overlays"/>
+<project name="libretro/common-shaders" path="libretro-super/retroarch/media/shaders"/>
+<project name="libretro/retroarch-assets" path="libretro-super/retroarch/media/assets"/>
+<project name="libretro/retroarch-joypad-autoconfig" path="libretro-super/retroarch/media/autoconfig"/>
+
 <project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes"/>
 <project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/perf"/>
 <project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/balanced"/>
@@ -66,8 +72,9 @@
 <project name="libretro/fmsx-libretro" path="libretro-super/libretro-fmsx"/>
 <project name="libretro/libretro-2048" path="libretro-super/libretro-2048"/>
 <project name="libretro/libretro-vecx" path="libretro-super/libretro-vecx"/>
-<project name="libretro/retroarch-joypad-autoconfig"  path="libretro-super/retroarch-joypad-autoconfig"/>
 <project name="libretro/libretro-manifest" path="libretro-super/libretro-manifest"/>
+
 <project name="libretro/libretro-ppsspp" path="libretro-super/libretro-ppsspp/"/>
+
 <project name="libretro/prosystem-libretro" path="libretro-super/libretro-prosystem"/>
 </manifest>
