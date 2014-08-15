@@ -73,8 +73,7 @@
 <project name="libretro/libretro-2048" path="libretro-super/libretro-2048"/>
 <project name="libretro/libretro-vecx" path="libretro-super/libretro-vecx"/>
 <project name="libretro/libretro-manifest" path="libretro-super/libretro-manifest"/>
-
 <project name="libretro/libretro-ppsspp" path="libretro-super/libretro-ppsspp/"/>
-
 <project name="libretro/prosystem-libretro" path="libretro-super/libretro-prosystem"/>
+<project name="libretro/libretro-o2em" path="libretro-super/libretro-o2em"/>
 </manifest>
