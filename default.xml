@@ -76,4 +76,5 @@
 <project name="libretro/libretro-ppsspp" path="libretro-super/libretro-ppsspp/"/>
 <project name="libretro/prosystem-libretro" path="libretro-super/libretro-prosystem"/>
 <project name="libretro/libretro-o2em" path="libretro-super/libretro-o2em"/>
+<project name="libretro/libretro-buildbot" path="libretro-super/libretro-buildbot"/>
 </manifest>
