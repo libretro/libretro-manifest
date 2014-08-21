@@ -14,6 +14,7 @@
 <project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes"/>
 <project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/perf"/>
 <project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/balanced"/>
+
 <project name="libretro/snes9x" path="libretro-super/libretro-s9x"/>
 <project name="libretro/snes9x-next" path="libretro-super/libretro-s9x-next"/>
 <project name="libretro/Genesis-Plus-GX" path="libretro-super/libretro-genplus"/>
@@ -55,9 +56,11 @@
 <project name="libretro/modelviewer-location-libretro" path="libretro-super/libretro-gl-modelviewer-location"/>
 <project name="libretro/FFmpeg" path="libretro-super/libretro-ffmpeg"/>
 <project name="libretro/bsnes-libretro-cplusplus98" path="libretro-super/libretro-bsnes-cplusplus98"/>
+
 <project name="libretro/bsnes-mercury" path="libretro-super/libretro-bsnes-mercury"/>
 <project name="libretro/bsnes-mercury" path="libretro-super/libretro-bsnes-mercury/perf"/>
 <project name="libretro/bsnes-mercury" path="libretro-super/libretro-bsnes-mercury/balanced"/>
+
 <project name="libretro/picodrive" path="libretro-super/libretro-picodrive"/>
 <project name="libretro/tgbdual-libretro" path="libretro-super/libretro-tgbdual"/>
 <project name="libretro/mupen64plus-libretro" path="libretro-super/libretro-mupen64plus"/>
