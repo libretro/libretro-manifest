@@ -15,35 +15,35 @@
 <project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/perf"/>
 <project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/balanced"/>
 
-<project name="libretro/snes9x" path="libretro-super/libretro-s9x"/>
-<project name="libretro/snes9x-next" path="libretro-super/libretro-s9x-next"/>
-<project name="libretro/Genesis-Plus-GX" path="libretro-super/libretro-genplus"/>
-<project name="libretro/fba-libretro" path="libretro-super/libretro-fba"/>
-<project name="libretro/vba-next" path="libretro-super/libretro-vba-next"/>
+<project name="libretro/snes9x" path="libretro-super/libretro-snes9x"/>
+<project name="libretro/snes9x-next" path="libretro-super/libretro-snes9x_next"/>
+<project name="libretro/Genesis-Plus-GX" path="libretro-super/libretro-genesis_plus_gx"/>
+<project name="libretro/fba-libretro" path="libretro-super/libretro-fb_alpha"/>
+<project name="libretro/vba-next" path="libretro-super/libretro-vba_next"/>
 <project name="libretro/vbam-libretro" path="libretro-super/libretro-vbam"/>
 <project name="libretro/libretro-handy" path="libretro-super/libretro-handy"/>
 <project name="libretro/bnes-libretro" path="libretro-super/libretro-bnes"/>
 <project name="libretro/libretro-fceumm" path="libretro-super/libretro-fceumm"/>
 <project name="libretro/gambatte-libretro" path="libretro-super/libretro-gambatte"/>
 <project name="libretro/meteor-libretro" path="libretro-super/libretro-meteor"/>
-<project name="libretro/nxengine-libretro" path="libretro-super/libretro-nx"/>
+<project name="libretro/nxengine-libretro" path="libretro-super/libretro-nxengine"/>
 <project name="libretro/libretro-prboom" path="libretro-super/libretro-prboom"/>
 <project name="libretro/stella-libretro" path="libretro-super/libretro-stella"/>
 <project name="libretro/desmume" path="libretro-super/libretro-desmume"/>
 <project name="libretro/QuickNES_Core" path="libretro-super/libretro-quicknes"/>
 <project name="libretro/nestopia" path="libretro-super/libretro-nestopia"/>
 <project name="libretro/tyrquake" path="libretro-super/libretro-tyrquake"/>
-<project name="libretro/pcsx_rearmed" path="libretro-super/libretro-pcsx-rearmed"/>
-<project name="libretro/beetle-gba-libretro" path="libretro-super/libretro-beetle-gba"/>
-<project name="libretro/beetle-lynx-libretro" path="libretro-super/libretro-beetle-lynx"/>
-<project name="libretro/beetle-ngp-libretro" path="libretro-super/libretro-beetle-ngp"/>
-<project name="libretro/beetle-pce-fast-libretro" path="libretro-super/libretro-beetle-pce-fast"/>
-<project name="libretro/beetle-supergrafx-libretro" path="libretro-super/libretro-beetle-supergrafx"/>
-<project name="libretro/beetle-psx-libretro" path="libretro-super/libretro-beetle-psx"/>
-<project name="libretro/beetle-pcfx-libretro" path="libretro-super/libretro-beetle-pcfx"/>
-<project name="libretro/beetle-bsnes-libretro" path="libretro-super/libretro-beetle-bsnes"/>
-<project name="libretro/beetle-vb-libretro" path="libretro-super/libretro-beetle-vb"/>
-<project name="libretro/beetle-wswan-libretro" path="libretro-super/libretro-beetle-wswan"/>
+<project name="libretro/pcsx_rearmed" path="libretro-super/libretro-pcsx_rearmed"/>
+<project name="libretro/beetle-gba-libretro" path="libretro-super/libretro-mednafen_gba"/>
+<project name="libretro/beetle-lynx-libretro" path="libretro-super/libretro-mednafen_lynx"/>
+<project name="libretro/beetle-ngp-libretro" path="libretro-super/libretro-mednafen_ngp"/>
+<project name="libretro/beetle-pce-fast-libretro" path="libretro-super/libretro-mednafen_pce_fast"/>
+<project name="libretro/beetle-supergrafx-libretro" path="libretro-super/libretro-mednafen_supergrafx"/>
+<project name="libretro/beetle-psx-libretro" path="libretro-super/libretro-mednafen_psx"/>
+<project name="libretro/beetle-pcfx-libretro" path="libretro-super/libretro-mednafen_pcfx"/>
+<project name="libretro/beetle-bsnes-libretro" path="libretro-super/libretro-mednafen_bsnes"/>
+<project name="libretro/beetle-vb-libretro" path="libretro-super/libretro-mednafen_vb"/>
+<project name="libretro/beetle-wswan-libretro" path="libretro-super/libretro-mednafen_wswan"/>
 <project name="libretro/scummvm" path="libretro-super/libretro-scummvm"/>
 <project name="libretro/yabause" path="libretro-super/libretro-yabause"/>
 <project name="libretro/dosbox-libretro" path="libretro-super/libretro-dosbox"/>
@@ -51,21 +51,23 @@
 <project name="libretro/mame2003-libretro" path="libretro-super/libretro-mame078"/>
 <project name="libretro/mame2010-libretro" path="libretro-super/libretro-mame139"/>
 <project name="libretro/libretro-mame" path="libretro-super/libretro-mame"/>
+<!--
 <project name="libretro/scenewalker-libretro" path="libretro-super/libretro-gl-scenewalker"/>
 <project name="libretro/modelviewer-libretro" path="libretro-super/libretro-gl-modelviewer"/>
 <project name="libretro/modelviewer-location-libretro" path="libretro-super/libretro-gl-modelviewer-location"/>
+-->
 <project name="libretro/FFmpeg" path="libretro-super/libretro-ffmpeg"/>
-<project name="libretro/bsnes-libretro-cplusplus98" path="libretro-super/libretro-bsnes-cplusplus98"/>
+<project name="libretro/bsnes-libretro-cplusplus98" path="libretro-super/libretro-bsnes_cplusplus98"/>
 
-<project name="libretro/bsnes-mercury" path="libretro-super/libretro-bsnes-mercury"/>
-<project name="libretro/bsnes-mercury" path="libretro-super/libretro-bsnes-mercury/perf"/>
-<project name="libretro/bsnes-mercury" path="libretro-super/libretro-bsnes-mercury/balanced"/>
+<project name="libretro/bsnes-mercury" path="libretro-super/libretro-bsnes_mercury"/>
 
 <project name="libretro/picodrive" path="libretro-super/libretro-picodrive"/>
 <project name="libretro/tgbdual-libretro" path="libretro-super/libretro-tgbdual"/>
 <project name="libretro/mupen64plus-libretro" path="libretro-super/libretro-mupen64plus"/>
+<!--
 <project name="libretro/instancingviewer-libretro-gl" path="libretro-super/libretro-gl-instancingviewer"/>
 <project name="libretro/instancingviewer-camera" path="libretro-super/libretro-gl-instancingviewer-camera"/>
+-->
 <project name="libretro/Dinothawr" path="libretro-super/libretro-dinothawr"/>
 <project name="libretro/hatari-libretro" path="libretro-super/libretro-hatari"/>
 <project name="libretro/libretro-uae" path="libretro-super/libretro-uae"/>
