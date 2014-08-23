@@ -3,6 +3,7 @@
 <remote name="gitorious" fetch="https://git.gitorious.org/" />
 <default revision="refs/heads/master" remote="github" sync-j="8"/>
 
+<project name="libretro/libretro-buildbot" path="libretro-super/libretro-buildbot"/>
 <project name="libretro/libretro-super" path="libretro-super"/>
 
 <project name="libretro/RetroArch" path="libretro-super/retroarch"/>
@@ -81,5 +82,5 @@
 <project name="libretro/libretro-ppsspp" path="libretro-super/libretro-ppsspp/"/>
 <project name="libretro/prosystem-libretro" path="libretro-super/libretro-prosystem"/>
 <project name="libretro/libretro-o2em" path="libretro-super/libretro-o2em"/>
-<project name="libretro/libretro-buildbot" path="libretro-super/libretro-buildbot"/>
+<project name="libretro/4do-libretro" path="libretro-super/libretro-4d0"/>
 </manifest>
