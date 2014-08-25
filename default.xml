@@ -1,7 +1,7 @@
 <manifest>
 <remote name="github" fetch="https://github.com/" />
 <remote name="gitorious" fetch="https://git.gitorious.org/" />
-<default revision="refs/heads/master" remote="github" sync-j="8"/>
+<default revision="refs/heads/master" remote="github" sync-j="1"/>
 
 <project name="libretro/libretro-buildbot" path="libretro-super/libretro-buildbot"/>
 <project name="libretro/libretro-super" path="libretro-super"/>
