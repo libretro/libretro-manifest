@@ -1,6 +1,5 @@
 <manifest>
 <remote name="github" fetch="https://github.com/" />
-<remote name="gitorious" fetch="https://git.gitorious.org/" />
 <default revision="refs/heads/master" remote="github" sync-j="8"/>
 
 <project name="libretro/libretro-buildbot" path="libretro-super/libretro-buildbot"/>
@@ -12,9 +11,9 @@
 <project name="libretro/retroarch-assets" path="libretro-super/retroarch/media/assets"/>
 <project name="libretro/retroarch-joypad-autoconfig" path="libretro-super/retroarch/media/autoconfig"/>
 
-<project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes"/>
-<project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/perf"/>
-<project name="bsnes/bsnes.git" remote="gitorious" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/balanced"/>
+<project name="libretro/bsnes-libretro.git" path="libretro-super/libretro-bsnes"/>
+<project name="libretro/bsnes-libretro.git" path="libretro-super/libretro-bsnes/perf"/>
+<project name="libretro/bsnes-libretro.git" path="libretro-super/libretro-bsnes/balanced"/>
 
 <project name="libretro/snes9x" path="libretro-super/libretro-snes9x"/>
 <project name="libretro/snes9x-next" path="libretro-super/libretro-snes9x_next"/>
