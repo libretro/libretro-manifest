@@ -11,9 +11,9 @@
 <project name="libretro/retroarch-assets" path="libretro-super/retroarch/media/assets"/>
 <project name="libretro/retroarch-joypad-autoconfig" path="libretro-super/retroarch/media/autoconfig"/>
 
-<project name="libretro/bsnes-libretro.git" path="libretro-super/libretro-bsnes"/>
-<project name="libretro/bsnes-libretro.git" path="libretro-super/libretro-bsnes/perf"/>
-<project name="libretro/bsnes-libretro.git" path="libretro-super/libretro-bsnes/balanced"/>
+<project name="libretro/bsnes-libretro.git" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes"/>
+<project name="libretro/bsnes-libretro.git" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/perf"/>
+<project name="libretro/bsnes-libretro.git" revision="refs/heads/libretro" path="libretro-super/libretro-bsnes/balanced"/>
 
 <project name="libretro/snes9x" path="libretro-super/libretro-snes9x"/>
 <project name="libretro/snes9x-next" path="libretro-super/libretro-snes9x_next"/>
