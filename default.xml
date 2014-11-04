@@ -7,7 +7,7 @@
 
 <project name="libretro/RetroArch" path="libretro-super/retroarch"/>
 <project name="libretro/common-overlays" path="libretro-super/retroarch/media/overlays"/>
-<project name="libretro/common-shaders" path="libretro-super/retroarch/media/shaders"/>
+<project name="libretro/common-shaders" path="libretro-super/retroarch/media/shaders_cg"/>
 <project name="libretro/retroarch-assets" path="libretro-super/retroarch/media/assets"/>
 <project name="libretro/retroarch-joypad-autoconfig" path="libretro-super/retroarch/media/autoconfig"/>
 
@@ -82,4 +82,5 @@
 <project name="libretro/prosystem-libretro" path="libretro-super/libretro-prosystem"/>
 <project name="libretro/libretro-o2em" path="libretro-super/libretro-o2em"/>
 <project name="libretro/4do-libretro" path="libretro-super/libretro-4d0"/>
+<project name="libretro/CATSFC-libretro" path="libretro-super/libretro-catsfc"/>
 </manifest>
